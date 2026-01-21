@@ -1,0 +1,153 @@
+/* FONTS */
+@font-face {
+    font-family: SuperDream;
+    src: url(../fonts/SuperDream.ttf);
+}
+
+@font-face {
+    font-family: Coolvetica;
+    src: url(../fonts/Coolvetica.otf);
+}
+
+/* UNIVERSAL*/
+body{
+  background: #FFF0DA;
+  display: flex;
+  flex-direction: column;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.upper_body{
+    flex:1;
+}
+
+/* NAVIGATION BAR */
+.nav_container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.label_name{
+    height: 90px;
+    position: absolute;
+    top: -50px;
+}
+
+.nav_horizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1200px;
+    height: 80px;
+
+    background-color: #FFF7EC;
+    border-radius: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    box-shadow: 5px 5px 15px rgba(165, 165, 165, 0.3);
+}
+
+.nav_horizontal img{
+    height: 50px;
+}
+
+.nav_list{
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.nav_list a {
+    text-decoration: none;
+    font-family: SuperDream;
+    color: #682C7A;
+}
+
+/* MAIN CONTENT */
+
+.main_content{
+    height: 500px;
+}
+
+/* FOOTER */
+.footer_tophalf{
+    background-image: url(../photos/website_elements/footer_background.png);
+    height: 280px;
+    width: 100%;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.footer_location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.footer_sea_bunny{
+    height: 70px;
+    width: 70px;
+}
+
+.footer_label_name{
+    height: 60px;
+    width: 250px;
+}
+
+.location_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.location_container{
+    font-family: Coolvetica;
+    color: #682C7A;
+}
+
+.footer_nav_list{
+    list-style: none;
+}
+
+.footer_nav_list a {
+    text-decoration: none;
+    font-family: Coolvetica;
+    color: #682C7A;
+}
+
+.footer_facebook, .footer_instagram, .footer_email {
+    display: flex;
+    color: #682C7A;
+    font-family: Coolvetica;
+}
+
+.footer_facebook svg{
+    height: 20px;
+    width: 20px;
+}
+
+.footer_instagram svg{
+    height: 10px;
+    width: 10px;
+}
+
+.footer_email svg{
+    height: 10px;
+    width: 20px;
+}
