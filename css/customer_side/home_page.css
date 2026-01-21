@@ -1,12 +1,12 @@
 /* FONTS */
 @font-face {
     font-family: SuperDream;
-    src: url(../fonts/SuperDream.ttf);
+    src: url(../../fonts/SuperDream.ttf);
 }
 
 @font-face {
     font-family: Coolvetica;
-    src: url(../fonts/Coolvetica.otf);
+    src: url(../../fonts/Coolvetica.otf);
 }
 
 /* UNIVERSAL*/
@@ -83,7 +83,7 @@ body{
 
 /* FOOTER */
 .footer_tophalf{
-    background-image: url(../photos/website_elements/footer_background.png);
+    background-image: url(../../photos/website_elements/footer_background.png);
     height: 240px;
     width: 100%;
     background-repeat: no-repeat;
