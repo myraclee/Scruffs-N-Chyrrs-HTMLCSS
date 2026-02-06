@@ -1,0 +1,35 @@
+/* PATH FIXES FOR FONTS */
+@font-face { font-family: 'Coolvetica'; src: url('../../fonts/Coolvetica.otf') format('opentype'); }
+@font-face { font-family: 'SuperDream'; src: url('../../fonts/SuperDream.ttf') format('truetype'); }
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background-color: #FDF5E6; display: flex; justify-content: center; align-items: center; min-height: 100vh; width: 100%; font-family: 'Coolvetica', sans-serif; color: #6B3282; }
+.page-wrapper { width: 100%; max-width: 600px; text-align: center; padding-bottom: 150px; position: relative; z-index: 10; }
+.brand-logo { width: 350px; max-width: 90%; margin-bottom: 1.5rem; display: block; margin-left: auto; margin-right: auto; }
+h1 { font-family: 'SuperDream', sans-serif; font-size: 3.5rem; margin-bottom: 0.5rem; color: #6B3282; }
+.description { margin-bottom: 2rem; padding: 0 40px; line-height: 1.4; color: #8A5DA1; font-size: 1.1rem; }
+
+/* Special Input Style for Code */
+.code-input {
+    width: 200px;
+    letter-spacing: 10px;
+    font-family: 'Coolvetica', sans-serif;
+    font-size: 2rem;
+    padding: 15px;
+    border-radius: 20px;
+    border: 3px solid #C6A4E3; /* Nice chunky border */
+    background-color: white;
+    text-align: center;
+    color: #6B3282;
+    outline: none;
+}
+
+.resend-text { margin-top: 1.5rem; font-size: 1rem; color: #8A5DA1; }
+.resend-text a { color: #6B3282; text-decoration: none; font-weight: bold; }
+
+.confirm-btn { background-color: #6B3282; color: #FFFFFF; border: none; padding: 15px 70px; border-radius: 50px; font-family: 'Coolvetica', sans-serif; font-size: 1.3rem; cursor: pointer; margin-top: 2rem; transition: 0.2s; }
+.confirm-btn:hover { background-color: #552768; transform: scale(1.05); }
+
+/* PATH FIX FOR FOOTER IMAGE */
+.footer-wave { position: fixed; bottom: 0; left: 0; width: 100%; height: 150px; background-image: url('../../photos/website_elements/footer_background.png'); background-repeat: no-repeat; background-size: cover; background-position: bottom center; display: flex; justify-content: center; align-items: flex-end; padding-bottom: 10px; z-index: 1; }
+.footer-wave p { color: white; font-size: 0.9rem; margin-bottom: 10px; }
